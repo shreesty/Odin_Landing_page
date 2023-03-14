@@ -1,0 +1,148 @@
+
+
+.Head{
+
+    background: #1F2937;
+    height:300px;
+    width:100%;
+    
+}
+.Header-Logo {
+    margin-left: auto;
+    font-size: 32px;
+    font-weight: bold;
+    color:white;
+    
+
+}
+
+.Head ul li{
+   
+    float:right;
+    list-style: none;
+    /* margin-right:50px; */
+    
+   
+
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    margin: 40px;
+    /* align-items: right;
+    justify-content: end; */
+    
+    
+}
+.Box{
+    padding: 60px;
+    background-color: lightslategray;
+    display: float;
+    float:right;
+    text-align: center;
+    margin-top:40px;
+    height:150x;
+    width:300px;
+    font-size: 16px;
+    margin-left:90px;
+}
+
+.Center {
+    padding: 10px;
+   color:white;
+    float:right;
+    
+    margin-top:3px;
+    height:150x;
+    width:300px;
+    
+}
+.Text{
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.text{
+    height:6px;
+    width:400px;
+    
+    /* font-size: 8px; */
+
+}
+.Sign-up{
+    color:white;
+    background: blue;
+    height:30px;
+    width:100px;
+    text-align: center;
+    padding:5px;
+    border-radius: 20px;
+
+}
+/* .Boxes {
+    display: flex;
+    width:100%;
+    height:auto;
+    flex-direction: row;
+  } */
+
+.t1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    margin:30px;
+}
+
+.b1,.b2,.b3,.b4{
+
+    height:130px;
+    width:120px;
+    background-color: white; 
+    border: 2px solid blue;
+    margin:30px;
+    
+} 
+
+.Quote-section{
+   
+
+    font-size: 36px;
+    font-style: italic;
+    background-color: #e5e7eb;
+    text-align: center;
+    height:300px;
+    padding: 30px;
+   
+}
+.Writer{
+    font-weight: bolder;
+    font-size: 36px;
+    font-style: italic;
+    float:right;
+}
+
+.Call_to_action
+{
+    background-color: blue;
+    
+    border-radius: 8px;
+}
+.one{
+    font-weight: bolder;
+    font-size: 28px;
+    color:white;
+    /* text-align: center; */
+    padding:40px;
+}
+.two{
+    color:white;
+    font-size: 18px;
+}
+.Last{
+    background-color: #1F2937;
+    color:white;
+    padding:30px;
+    text-align: center;
+}
