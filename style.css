@@ -1,183 +1,222 @@
+html, body {
+    margin: 0; 
+    padding: 0; 
+    font-family: Sans-serif;
+}
 
-.Head{
+.Head {
 
     background: #1F2937;
-    height:400px;
-    width:100%;
-    
+    height: 400px;
+    width: 100%;
+
 }
+
 .Header-Logo {
     margin-left: auto;
     font-size: 32px;
     font-weight: bold;
-    color:white;
-    
+    color: white;
+
 
 }
 
-.Head ul li{
-   
-    float:right;
+.Head ul li {
+
+    float: right;
     list-style: none;
     /* margin-right:50px; */
-    
+
 }
 
-a{
+a {
 
     text-decoration: none;
     color: white;
     margin: 40px;
     /* align-items: right;
     justify-content: end; */
-    
-    
+
+
 }
-.Box{
+
+.Box {
     padding: 60px;
     background-color: lightslategray;
     display: float;
-    float:right;
+    float: right;
     text-align: center;
-    margin-top:40px;
-    height:150x;
-    width:300px;
+    margin-top: 40px;
+    height: 150x;
+    width: 300px;
     font-size: 16px;
-    margin-left:90px;
+    margin-left: 90px;
 }
 
 .Center {
     padding: 10px;
-   color:white;
-    float:right;
-    
-    margin-top:3px;
-    height:150x;
-    width:300px;
-    
+    color: white;
+    float: right;
+
+    margin-top: 3px;
+    height: 150x;
+    width: 300px;
+
 }
-.Text{
+
+.Text {
     font-size: 48px;
     font-weight: bolder;
 
 }
-.text{
-    height:6px;
-    width:400px;
-    
+
+.text {
+    height: 6px;
+    width: 400px;
+
     /* font-size: 8px; */
 
 }
-.Sign-up{
-    color:white;
+
+.Sign-up {
+    color: white;
     background: blue;
-    height:30px;
-    width:100px;
+    height: 30px;
+    width: 100px;
     text-align: center;
-    padding:5px;
+    padding: 5px;
     border-radius: 10px;
-    
 
 }
 
-.t1{
+.t1 {
     text-align: center;
     font-weight: bold;
     font-size: 32px;
-    margin:30px;
+    margin: 30px;
 }
 
- .b1,.b2,.b3,.b4{
-    
-    width:150px;
-    height:150px;
-    border:5px solid #3882f6;
-    border-radius: 10px;
-    margin-bottom:90px;
-    
-}  
+.b1,
+.b2,
+.b3,
+.b4 {
 
-.Quote-section{
-   
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 90px;
+
+}
+
+.Quote-section {
+
 
     font-size: 36px;
     font-style: italic;
     background-color: #e5e7eb;
     text-align: center;
-    height:200px;
+    height: 200px;
     padding: 70px;
-   
+
 }
-.Writer{
+
+.Writer {
     font-weight: bolder;
     font-size: 36px;
     font-style: italic;
-    float:right;
+    float: right;
 }
 
 
-.Call_to_action
-{
-   
+.Call_to_action {
+
     background-color: blue;
-    color:#F9FAF8;
+    color: #F9FAF8;
     border-radius: 8px;
-    padding:15px;
-    width:900px;
-    
+    padding: 15px;
+    width: 900px;
+
 
 }
-.one{
+
+.one {
     font-weight: bolder;
     font-size: 28px;
-    color:#F9FAF8;
+    color: #F9FAF8;
     /* text-align: center;
     padding:40px; */
 }
-.two{
-    color:#F9FAF8;
+
+.two {
+    color: #F9FAF8;
     font-size: 18px;
 }
-.Last{
+
+.Last {
     background-color: #1F2937;
-    color:#F9FAF8;
-    padding:30px;
+    color: #F9FAF8;
+    padding: 30px;
     text-align: center;
 }
 
-.Boxes{
-    color:#1F2937;
-    font-size:18px;
-    display:flex;
+.Boxes {
+    color: #1F2937;
+    font-size: 18px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height:300px;
-    
+    height: 300px;
+
 
 }
 
-.sign-up-box{
-    color:#F9FAF8;
+.sign-up-box {
+    color: #F9FAF8;
     font-weight: bold;
-    border:5px solid white;
+    border: 5px solid white;
     text-align: center;
-    float:right;
-    height:30px;
-    width:150px;
-    margin-right:80px;
+    float: right;
+    height: 30px;
+    width: 150px;
+    margin-right: 80px;
     border-radius: 5px;
     margin-bottom: 25px;
 }
 
-.Last-section{
-    display:flex;
-    justify-content:center;
+.Last-section {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    height:300px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     background-color: #F9FAF8;
+
+}
+.Sign-up:hover{
+    background-color: lightblue;
+}
+
+
+    
+
+a:hover
+{
+    
+    text-decoration:underline;
     
 }
+img{
+
+    width:100px;
+    height:100px;
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
