@@ -9,6 +9,7 @@ html, body {
     background: #1F2937;
     height: 400px;
     width: 100%;
+   
 
 }
 
@@ -47,17 +48,18 @@ a {
     float: right;
     text-align: center;
     margin-top: 40px;
-    height: 150x;
-    width: 300px;
+    height: 150px;
+    width: 200px;
     font-size: 16px;
     margin-left: 90px;
+    display:flex;
 }
 
 .Center {
     padding: 10px;
     color: white;
     float: right;
-
+  
     margin-top: 3px;
     height: 150x;
     width: 300px;
@@ -117,6 +119,7 @@ a {
     background-color: #e5e7eb;
     text-align: center;
     height: 200px;
+    width:100%;
     padding: 70px;
 
 }
@@ -157,7 +160,7 @@ a {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 30px;
-    text-align: center;
+    justify-content: center;
 }
 
 .Boxes {
@@ -220,3 +223,8 @@ img{
 
 }
 
+.flex
+{
+    display:flex;
+    flex-wrap: wrap;
+}
